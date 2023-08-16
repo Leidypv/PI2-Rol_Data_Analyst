@@ -68,5 +68,5 @@ Basándonos en los hallazgos, recomendamos a los clientes considerar la inversi�
 Así mismo, ethereum se presenta como una segunda opción debido a su importancia en el mundo de las criptomonedas y su capacidad para crecer en el futuro.
 Aunque nuestro análisis brinda una base sólida para esta recomendación, es vital tener en cuenta que toda inversión implica riesgos, por lo que es esencial que los inversores realicen su propio análisis antes de tomar una decisión. 
 
-El analisis lo encuentran en el archivo EDA. 
+El analisis lo encuentran en la carpeta Market Cap > archivo EDA. 
 
