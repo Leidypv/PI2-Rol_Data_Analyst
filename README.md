@@ -32,18 +32,18 @@ La empresa se ha mostrado un notable interés en este mercado debido a su crecim
 3.Cardano: ADA es un token nativo, se utiliza para llevar a cabo transacciones y para participar en la red. 
 
 4. Chives Coin: No se dispone de mucha información sobre Chives, lo que podría indicar que es un token relativamente nuevo en el mercado.
-   
+
 5. Dogecoin: Inicialmente nacida como una broma basada en un meme de un perro. Dogecoin ha evolucionado y se ha convertido en una moneda popular para propinas y donaciones en línea.
- 
+
 6. Ethereum: Su Token nativo se utiliza para pagar transacciones en la red.
 
 7. Gala: Es el token nativo de la plataforma Gala Games, permite a los jugadores ser dueños de sus propios juegos y les brinda recompensas por jugar.
 
-8.  Ripple: Funciona tanto como plataforma de pago como criptomoneda.
+8. Ripple: Funciona tanto como plataforma de pago como criptomoneda.
 
-9.  Solana: Su token nativo se utiliza en la operación de la red
+9. Solana: Su token nativo se utiliza en la operación de la red
 
-11. Terra Luna: Su token nativo se utiliza en la red 
+10. Terra Luna: Su token nativo se utiliza en la red 
 
 A.   Comienzo extrayendo datos históricos del mercado, abarcando el periodo del 01/01/2020 al 01/01/2023 del mercado que incluyen precio, capitalización de mercado y volumen de 24horas, todos expresados en la moneda de cambio USD. 
 Mi objetivo con este análisis histórico es obtener una visión general de la distribución y las tendencias de los precios en el mercado de las criptomonedas. Para lograrlo, he optado por utilizar estadísticas relacionadas con el precio de las criptomonedas de los datos y el diagrama de caja, que me permite identificar valores atípicos (outliers) en el mercado.
