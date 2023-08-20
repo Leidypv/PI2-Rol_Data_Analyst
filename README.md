@@ -1,20 +1,22 @@
 # PI2-Rol_Data_Analyst
 
 <div aling="left">
-     <img src = "https://github.com/Leidypv/PI2-Rol_Data_Analyst/assets/122382146/1879ba47-691f-4e11-a78e-ecc7365b5f5d" width="200"/>
-
+     <img src = "https://github.com/Leidypv/PI2-Rol_Data_Analyst/assets/122382146/1879ba47-691f-4e11-a78e-ecc7365b5f5d" width="100"/>
+</div>
 
 <div aling="center">
      <h1 aling="center"> Bienvenidos</h1>
      <h3 aling="center"> Me presento, soy Leidy Parrado y mi cargo es de Data Analista con la empresa Financial Services. Me ha encomendado el proyecto de analizar el mercado de las criptomonedas.</h3>
+</div>
       
 La empresa ha mostrado un notable interés en este mercado debido a su crecimiento desde el 2009 y acogida a nivel mundial, ***El objetivo del proyecto es entender el mercado y detectar posibles oportunidades de inversión para 
 los clientes.***
 
-<div aling="center">
-     <img src = "https://media.giphy.com/media/3LKQGIc48tdE5uyZlU/giphy.gif" width="200"/>
- 
----
+
+ <div align="center" >
+    <img width="200" src="https://media.giphy.com/media/3LKQGIc48tdE5uyZlU/giphy.gif">
+</div>
+
 
 ### Desarrollo del proyecto
 ---
@@ -60,13 +62,20 @@ He utilizado los datos de la API CoinGecko, seleccionando 10 Criptomonedas a est
 A.   Comienzo extrayendo datos históricos del mercado, abarcando el periodo del 01/01/2020 al 01/01/2023 del mercado que incluyen precio, capitalización de mercado y volumen de 24horas, todos expresados en la moneda de cambio USD. 
 Mi objetivo con este análisis histórico es obtener una visión general de la distribución y las tendencias de los precios en el mercado de las criptomonedas. Para lograrlo, he optado por utilizar estadísticas relacionadas con el precio de las criptomonedas de los datos y el diagrama de caja, que me permite identificar valores atípicos (outliers) en el mercado.
 
-Observamos que el valor promedio es de $3425.98usd nos puede dar una idea general sobre el rango de precios en el mercado de las criptomonedas. La volatilidad con un valor de $10676.11usd, nos indica la variabilidad de los precios en relación con el promedio. Nos muestra que algunas criptomonedas tienen un precio extremadamente bajo y otras un precio muy alto. Por último, observamos la distribución de los precios en el mercado por ejemplo el 25% de las criptomonedas tienen precio menos o igual a $0.15usd mientras que el 75% se encuentra dentro del rango de $0.15usd y $288.55usd 
+<img align="left" width="11%" src="https://github.com/Leidypv/PI2-Rol_Data_Analyst/assets/122382146/897d6051-cdee-4e7e-9861-4de0359f1e58">  <br/>
 
-La elección del diagrama de caja se fundamenta en su capacidad de trabajar en conjunto con las estadísticas, me proporciona una visión rápida de la distribución de los precios y la presencia de valores atípicos. Esto me ha permitido realizar un análisis detenido de por qué algunos precios difieren. 
-Basándome en el análisis estadístico, la gráfica comparativa confirma que la criptomoneda bitcoin alcanza el valor máximo de $67617.01usd, lo cual podría ser un indicio positivo para la inversión en esta criptomoneda dado su alto valor en el mercado.  
+Observamos que el valor promedio es de $3425.98usd nos puede dar una idea general sobre el rango de precios en el mercado de las criptomonedas. La volatilidad con un valor de $10676.11usd, nos indica la variabilidad de los precios en relación con el promedio. Nos muestra que algunas criptomonedas tienen un precio extremadamente bajo y otras un precio muy alto. Por último, observamos la distribución de los precios en el mercado por ejemplo el 25% de las criptomonedas tienen precio menos o igual a $0.15usd mientras que el 75% se encuentra dentro del rango de $0.15usd y $288.55usd.
+
+ <img align="right" width="30%" src="https://github.com/Leidypv/PI2-Rol_Data_Analyst/assets/122382146/d5e08ee2-f77c-447a-b246-89de61964df0">  <br/>  <br/>
+
+La elección del diagrama de dispensión se fundamenta en su capacidad de trabajar en conjunto con las estadísticas, me proporciona una visión rápida de la distribución de los precios y la presencia de valores atípicos(Outliers). Esto me ha permitido realizar un análisis detenido de por qué algunos precios difieren. 
+Basándome en el análisis estadístico, la gráfica comparativa confirma que la criptomoneda bitcoin alcanza el valor máximo de $67617.01usd, lo cual podría ser un indicio positivo para la inversión en esta criptomoneda dado su alto valor en el mercado.<br/> <br/>
+
 
 B.   El análisis es fundamental para comprender como los inversores y el mercado en general perciben la capitalización de mercado. Por tal razón Inicie la extracción de los datos de market_cap (capitalización de mercado) desde la API. 
 Luego, procedí a calcular la matriz de correlación para todas las variables y elegí el mapa de calor para resaltar las correlaciones y comprender como se relacionan las variables entre sí. Cuando el valor de la correlación se acerca a 1 indica correlación positiva fuerte, mientras que un valor cercano a -1indica una correlación negativa fuerte. 
+
+ <img align="left" width="33%" src="https://github.com/Leidypv/PI2-Rol_Data_Analyst/assets/122382146/2a004315-6c9e-4abd-a780-37a69906dada">
 
 Opte por el mapa de calor porque me ayuda a identificar patrones de correlación entre diferentes variables y para resaltar tanto las relaciones más fuertes como las más débiles entre ellas. 
 
@@ -93,5 +102,7 @@ Aunque nuestro análisis brinda una base sólida para esta recomendación, es vi
 
 ---
 
-En la carpeta Market Cap encuntran > archivo EDA. > archivo Extracción API.
+>!IMPORTANT
+>
+>En la carpeta Market Cap encuntran > archivo EDA. > archivo Extracción API.
 
