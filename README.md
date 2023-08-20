@@ -1,19 +1,26 @@
 # PI2-Rol_Data_Analyst
-En este repositorio se encuentra la Extracción API.jpynb y EDA.jpynb
+
+<div aling="left">
+     <img src = "https://github.com/Leidypv/PI2-Rol_Data_Analyst/assets/122382146/1879ba47-691f-4e11-a78e-ecc7365b5f5d" width="200"/>
 
 
+<div aling="center">
+     <h1 aling="center"> Bienvenidos</h1>
+     <h3 aling="center"> Me presento, soy Leidy Parrado y mi cargo es de Data Analista con la empresa Financial Services. Me ha encomendado el proyecto de analizar el mercado de las criptomonedas.</h3>
+      
+La empresa ha mostrado un notable interés en este mercado debido a su crecimiento desde el 2009 y acogida a nivel mundial, ***El objetivo del proyecto es entender el mercado y detectar posibles oportunidades de inversión para 
+los clientes.***
 
-![image](https://github.com/Leidypv/PI2-Rol_Data_Analyst/assets/122382146/1879ba47-691f-4e11-a78e-ecc7365b5f5d)
-
+<div aling="center">
+     <img src = "https://media.giphy.com/media/3LKQGIc48tdE5uyZlU/giphy.gif" width="200"/>
  
-Bienvenidos 
+---
 
-Me presento, soy Leidy Parrado y mi cargo es de Data Analista con la empresa Financial Services. Se me ha encomendado el proyecto de analizar el mercado de las criptomonedas.
+### Desarrollo del proyecto
+---
 
-La empresa se ha mostrado un notable interés en este mercado debido a su crecimiento desde el 2009 y acogida a nivel mundial, El objetivo del proyecto es entender el mercado y detectar posibles oportunidades de inversión para los clientes. 
- 
- Para desarrollar el proyecto, he utilizado los datos de la API CoinGecko, seleccionando 10 Criptomonedas a estudiar su comportamiento en el mercado: 
- 
+He utilizado los datos de la API CoinGecko, seleccionando 10 Criptomonedas a estudiar su comportamiento en el mercado: 
+   
 1.	Bitcoin (BTC)
 2.	Binancecoin (BNB)
 3.	Cardano (ADA)
@@ -25,25 +32,30 @@ La empresa se ha mostrado un notable interés en este mercado debido a su crecim
 9.	Solana (SOL)
 10.	Terra Luna (LUNA)
     
-1.Bitcoin: Es la primera criptomoneda que permite realizar transacciones entre personas sin necesidad de intermediario como un bancos o gobiernos.
+- Bitcoin: Es la primera criptomoneda que permite realizar transacciones entre personas sin necesidad de intermediario como un bancos o gobiernos.
 
-2.Binancecoin: Se crea con el propósito de pagar transacciones dentro de la plataforma Binance y para obtener descuentos en tarifas.
+- Binancecoin: Se crea con el propósito de pagar transacciones dentro de la plataforma Binance y para obtener descuentos en tarifas.
 
-3.Cardano: ADA es un token nativo, se utiliza para llevar a cabo transacciones y para participar en la red. 
+- Cardano: ADA es un token nativo, se utiliza para llevar a cabo transacciones y para participar en la red. 
 
-4. Chives Coin: No se dispone de mucha información sobre Chives, lo que podría indicar que es un token relativamente nuevo en el mercado.
+- Chives Coin: No se dispone de mucha información sobre Chives, lo que podría indicar que es un token relativamente nuevo en el mercado.
 
-5. Dogecoin: Inicialmente nacida como una broma basada en un meme de un perro. Dogecoin ha evolucionado y se ha convertido en una moneda popular para propinas y donaciones en línea.
+- Dogecoin: Inicialmente nacida como una broma basada en un meme de un perro. Dogecoin ha evolucionado y se ha convertido en una moneda popular para propinas y donaciones en línea.
 
-6. Ethereum: Su Token nativo se utiliza para pagar transacciones en la red.
+- Ethereum: Su Token nativo se utiliza para pagar transacciones en la red.
 
-7. Gala: Es el token nativo de la plataforma Gala Games, permite a los jugadores ser dueños de sus propios juegos y les brinda recompensas por jugar.
+- Gala: Es el token nativo de la plataforma Gala Games, permite a los jugadores ser dueños de sus propios juegos y les brinda recompensas por jugar.
 
-8. Ripple: Funciona tanto como plataforma de pago como criptomoneda.
+- Ripple: Funciona tanto como plataforma de pago como criptomoneda.
 
-9. Solana: Su token nativo se utiliza en la operación de la red
+- Solana: Su token nativo se utiliza en la operación de la red
+  
+- Terra Luna: Su token nativo se utiliza en la red
+    
+---
 
-10. Terra Luna: Su token nativo se utiliza en la red 
+### Análisis 
+---
 
 A.   Comienzo extrayendo datos históricos del mercado, abarcando el periodo del 01/01/2020 al 01/01/2023 del mercado que incluyen precio, capitalización de mercado y volumen de 24horas, todos expresados en la moneda de cambio USD. 
 Mi objetivo con este análisis histórico es obtener una visión general de la distribución y las tendencias de los precios en el mercado de las criptomonedas. Para lograrlo, he optado por utilizar estadísticas relacionadas con el precio de las criptomonedas de los datos y el diagrama de caja, que me permite identificar valores atípicos (outliers) en el mercado.
@@ -62,11 +74,24 @@ En el gráfico, apreciamos una fuerte correlación positiva entre la variable ma
 
 Al comparar con los datos del dataframe(tabla), se confirma que efectivamente existe una correlación entre estos dos valores para bitcoin y ethereum, es decir cuando la capitalización de mercado aumenta para estas criptomonedas, es probable que también aumente el valor total de operaciones. Esto sugiere un creciente interés y participación en el mercado para estas criptomonedas.  
 
-Conclusión
+---
+
+### Conclusión
+---
+
 Basándonos en los hallazgos, recomendamos a los clientes considerar la inversión en bitcoin como una opción principal debido a su posición en el mercado y su tendencia alcista en cuanto a su valoración.
 
 Así mismo, ethereum se presenta como una segunda opción debido a su importancia en el mundo de las criptomonedas y su capacidad para crecer en el futuro.
 Aunque nuestro análisis brinda una base sólida para esta recomendación, es vital tener en cuenta que toda inversión implica riesgos, por lo que es esencial que los inversores realicen su propio análisis antes de tomar una decisión. 
 
-El analisis lo encuentran en la carpeta Market Cap > archivo EDA. 
+---
+
+### Fuente de datos
+---
+
+- API CoinGecko
+
+---
+
+En la carpeta Market Cap encuntran > archivo EDA. > archivo Extracción API.
 
